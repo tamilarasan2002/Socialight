@@ -1,0 +1,45 @@
+.login_page,.forgot_page{
+    font-size: 14px;
+    min-height:700px ;
+    .login_image_setup{
+        position: absolute;
+        top: 4%;
+        left: 34%;
+        width: 53%;
+    }
+    .login_form_card>div {
+        padding: 30px;
+        border: 1px solid rgb(219, 219, 219);
+     h1{
+        font-family: 'Caveat', cursive;
+        font-weight: 700;
+        font-size: 50px;
+
+    }
+    input,p,button{    
+        padding:10px;
+        font-size: 12px;
+    }
+    input{
+        background-color: rgb(250, 250, 250);
+    }
+    .form-control:focus {
+        box-shadow: none;
+    }
+     button{
+        width:100%;
+        background-color: #0095f6;
+        border: none;
+        font-weight: 700;
+    }
+     .stright_line{
+        width: 40%;
+        height: .5px;
+        background-color: rgb(219, 219, 219);
+
+    }
+    .login_form_card span a{
+        color: #0095f6;
+    }
+}
+}
